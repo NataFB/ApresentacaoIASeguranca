@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Apresentação offline para projetos de visão computacional em segurança industrial.">
+  <title>Visão IA — Segurança operacional</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="viewport" aria-label="Apresentação Visão IA">
+    <div id="deck" class="deck">
+        <section class="slide cover active" aria-roledescription="slide" aria-label="1 de 12: Do vídeo à decisão" data-title="Do vídeo à decisão" data-section="ABERTURA" data-notes="Abrir falando do objetivo: não vender uma câmera isolada, e sim uma solução capaz de transformar imagens em eventos que apoiem a segurança. Este caso foi usado como laboratório e ainda não é uma solução plenamente homologada.">
+          <div class="cover-bg"><img class="cover-img" src="assets/ambiente-industrial.webp" alt="Área industrial monitorada por câmera" draggable="false"></div>
+          <div class="cover-shade"></div>
+          <div class="cover-grid"></div>
+          <div class="cover-meta"><span class="tiny-dot"></span> VISÃO COMPUTACIONAL <span class="tiny-divider"></span> SEGURANÇA OPERACIONAL</div>
+          <div class="cover-content">
+            <div class="overline accent">PROPOSTA DE SOLUÇÃO REPLICÁVEL</div>
+            <h1 class="cover-title">Do vídeo<br>à <em>decisão.</em></h1>
+            <div class="cover-rule"></div>
+            <p class="cover-sub">Monitoramento inteligente de EPI, comportamento de risco e identificação assistida por IA.</p>
+          </div>
+          <div class="cover-right">
+            <div class="scan-square">
+              <span></span><span></span><span></span><span></span>
+              <div>VIDEO<br>ANALYTICS</div>
+            </div>
+          </div>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="2 de 12: O desafio" data-title="O desafio" data-section="CONTEXTO" data-notes="O problema não é ter pouco vídeo; é tirar valor dele. Enfatizar a diferença entre monitoramento passivo e fluxos verificáveis de eventos." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">02 &nbsp; / &nbsp; OPORTUNIDADE</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">01 / POR QUE ISTO É CRÍTICO?</div>
+            <h2 class="big-heading">Uma câmera vê.<br><span class="muted">Um sistema precisa entender.</span></h2>
+            <p class="lead narrow">No ambiente industrial, captar imagens é apenas o começo. O desafio está em transformar observações em registros úteis, verificáveis e acionáveis.</p>
+            <div class="three-cards offset-top">
+              <div class="feature">
+                <span class="feature-index">01</span>
+                <div class="feature-line"></div>
+                <h3>Visibilidade</h3>
+                <p>Identificar situações relevantes em áreas monitoradas.</p>
+              </div>
+              <div class="feature">
+                <span class="feature-index">02</span>
+                <div class="feature-line"></div>
+                <h3>Contexto</h3>
+                <p>Entender onde, quando e em quais condições um evento ocorreu.</p>
+              </div>
+              <div class="feature">
+                <span class="feature-index">03</span>
+                <div class="feature-line"></div>
+                <h3>Resposta</h3>
+                <p>Direcionar evidências para revisão, alerta e melhoria operacional.</p>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>SEGURANÇA OPERACIONAL · MONITORAMENTO ORIENTADO POR EVENTOS</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="3 de 12: Um caso real como ponto de partida" data-title="Um caso real como ponto de partida" data-section="BASE DO PROJETO" data-notes="Contextualizar: o equipamento e as capturas são reais, mas os resultados ainda não equivalem a uma validação industrial completa. Mostrar o ambiente amplo e a porta com alta incidência de luz." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">03 &nbsp; / &nbsp; ESTUDO DE CASO</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">02 / O QUE JÁ FOI REALIZADO?</div>
+            <h2 class="big-heading">Da hipótese<br><span class="accent">à implantação em campo.</span></h2>
+            <div class="case-layout">
+              <div class="case-visual">
+                <img class="w100" src="assets/galpao-do-piloto.webp" alt="Captura real do galpão industrial" draggable="false">
+                <div class="image-caption"><span class="signal"></span> Ambiente industrial monitorado · 28 OUT 2026</div>
+              </div>
+              <div class="case-facts">
+                <div class="case-fact">
+                  <span>01</span>
+                  <div>
+                    <strong>Câmera com IA embarcada</strong>
+                    <p>Hikvision DeepinView, testada em galpão industrial real.</p>
+                  </div>
+                </div>
+                <div class="case-fact">
+                  <span>02</span>
+                  <div>
+                    <strong>Funcionalidades observadas</strong>
+                    <p>Eventos de capacete, uso de celular e captura/comparação facial.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>IMAGENS DO PILOTO · CAPTURAS DE 28/10/2026</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="4 de 12: Três capacidades demonstradas" data-title="Três capacidades demonstradas" data-section="VALIDAÇÃO" data-notes="Explicar três evidências observáveis, sem dizer que a precisão é alta nem que o fluxo de ponta a ponta foi entregue. A identificação facial exibe pontuações, mas é preciso validar erros e falsos positivos." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">04 &nbsp; / &nbsp; CAPACIDADES</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">03 / RESULTADOS</div>
+            <h2 class="big-heading">Três sinais de que<br><span class="muted">a tecnologia funciona.</span></h2>
+            <div class="proof-grid">
+              <div class="proof-card">
+                <div class="proof-image"><img src="assets/evento-capacete.webp" alt="Evento de ausência de capacete" draggable="false"></div>
+                <div class="proof-body">
+                  <div class="proof-num">01</div>
+                  <h3>Detecção de capacete</h3>
+                  <p>Eventos registrados.</p>
+                </div>
+              </div>
+              <div class="proof-card">
+                <div class="proof-image"><img src="assets/evento-celular.webp" alt="Evento de uso de telefone celular" draggable="false"></div>
+                <div class="proof-body">
+                  <div class="proof-num">02</div>
+                  <h3>Uso de celular</h3>
+                  <p>Detecção confirmada quando o aparelho está visível para a câmera.</p>
+                </div>
+              </div>
+              <div class="proof-card">
+                <div class="proof-image face-proof"><img src="assets/comparacao-facial.webp" alt="Painel de reconhecimento com dados anonimizados" draggable="false"></div>
+                <div class="proof-body">
+                  <div class="proof-num">03 <span class="status status-good">REGISTROS GERADOS</span></div>
+                  <h3>Captura e comparação facial</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>DETECÇÃO ≠ PRECISÃO VALIDADA</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="5 de 12: Uso de celular: funciona dentro do campo visual" data-title="Uso de celular: funciona dentro do campo visual" data-section="COMPORTAMENTO" data-notes="Afirmar claramente: este teste foi confirmado pela equipe, inclusive a falha conhecida quando o aparelho está do lado não visível do rosto. Posicionamento e perspectiva importam." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">05 &nbsp; / &nbsp; USO DE CELULAR</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">04 / DETECÇÃO DE COMPORTAMENTO</div>
+            <h2 class="mid-heading">Celular detectado.<br><span class="accent">Teste confirmado em campo.</span></h2>
+            <div class="phone-layout">
+              <div class="phone-visual">
+                <img class="w100" src="assets/evento-celular.webp" alt="Teste de uso de celular confirmado" draggable="false">
+                <div class="media-tag">EVENTO · USING MOBILE PHONE</div>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>FUNCIONALIDADE COM TESTE PRÁTICO CONFIRMADO</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="6 de 12: Reconhecimento facial exige imagem suficiente" data-title="Reconhecimento facial exige imagem suficiente" data-section="FACE" data-notes="Os registros e a comparação com base facial são visíveis. Deixar explícito que não existem dados de sensibilidade, especificidade, FAR/FRR ou precisão medidos. Dados pessoais são protegidos nos materiais demonstrativos." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">06 &nbsp; / &nbsp; IDENTIFICAÇÃO ASSISTIDA</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">05 / CAPTURA FACIAL</div>
+            <h2 class="mid-heading">Identificar pessoas exige<br><span class="muted">mais do que localizar rostos.</span></h2>
+            <div class="facial-layout">
+              <div class="records-panel">
+                <div class="panel-heading">REGISTROS GERADOS PELA CÂMERA <span>●</span></div>
+                <img class="w100" src="assets/registros-faciais.webp" alt="Histórico de capturas faciais com rostos anonimizados" draggable="false">
+                <div class="privacy-label">Dados faciais anonimizados nesta apresentação</div>
+              </div>
+              <div class="facial-copy">
+                <div class="score-large">60–92<span>%</span></div>
+                <div class="score-label">Faixa de pontuações exibidas em exemplos de comparação</div>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>PONTUAÇÕES OBSERVADAS NA INTERFACE · NÃO SÃO MÉTRICAS DE ACURÁCIA</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="7 de 12: Do equipamento à solução" data-title="Do equipamento à solução" data-section="ARQUITETURA" data-notes="Esta é uma arquitetura de referência para novos projetos e ainda não foi completamente implementada neste caso. Não assegurar integração ISAPI/ONVIF para todo evento sem teste. O modelo próprio é opcional e entra se necessário." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">07 &nbsp; / &nbsp; ARQUITETURA DE REFERÊNCIA</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">06 / COMO UM PROJETO PODE EVOLUIR</div>
+            <h2 class="mid-heading">Do sensor ao registro.<br><span class="muted">Sem depender apenas da tela da câmera.</span></h2>
+            <div class="arch-flow">
+              <div class="arch-node">
+                <div class="arch-num">01 / ORIGEM</div>
+                <div class="arch-icon">◉</div>
+                <strong>Câmera inteligente</strong>
+                <p>Vídeo e eventos de IA</p>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-node">
+                <div class="arch-num">02 / CONECTAR</div>
+                <div class="arch-icon">⇄</div>
+                <strong>Camada de integração</strong>
+                <p>Recebimento e validação</p>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-node">
+                <div class="arch-num">03 / INTERPRETAR</div>
+                <div class="arch-icon">◇</div>
+                <strong>Correlação de eventos</strong>
+                <p>Pessoa · tempo · local</p>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-node">
+                <div class="arch-num">04 / AGIR</div>
+                <div class="arch-icon">▤</div>
+                <strong>Gestão de ocorrências</strong>
+                <p>Revisão · alertas · relatórios</p>
+              </div>
+            </div>
+            <div class="arch-lower">
+              <div class="arch-label">EVOLUÇÃO OPCIONAL</div>
+              <div class="arch-optional"><strong>IA externa personalizada</strong><span>Modelos próprios podem complementar a IA embarcada quando os requisitos exigirem.</span></div>
+              <div class="arch-guard">Integrações, protocolos e desempenho precisam ser validados para cada equipamento e ambiente.</div>
+            </div>
+          </div>
+          <footer class="slide-foot"><span>ARQUITETURA PROPOSTA · NÃO IMPLANTADA INTEGRALMENTE NO PILOTO</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="8 de 12: O evento vira um fluxo de trabalho" data-title="O evento vira um fluxo de trabalho" data-section="PRODUTO" data-notes="Dizer que o mockup é o produto proposto. O piloto comprovou a existência de eventos na interface da câmera, não esta plataforma. O software cria rastreabilidade e revisão humana antes de medidas." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">08 &nbsp; / &nbsp; EXPERIÊNCIA PROPOSTA</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">07 / EXPERIÊNCIA A SER DESENVOLVIDA</div>
+            <h2 class="mid-heading">Da detecção<br><span class="accent">ao acompanhamento.</span></h2>
+            <div class="app-shell">
+              <div class="app-header"><span class="mini-mark"></span> CENTRAL DE EVENTOS <span class="demo-flag">CONCEITO ILUSTRATIVO</span><span class="app-faux-clock">VISÃO GERAL</span></div>
+              <div class="app-stats">
+                <div><span>01</span><strong>Receber</strong><small>Evento bruto</small></div>
+                <div><span>02</span><strong>Verificar</strong><small>Contexto e evidência</small></div>
+                <div><span>03</span><strong>Classificar</strong><small>Validação humana</small></div>
+                <div><span>04</span><strong>Aprender</strong><small>Relatórios e ajustes</small></div>
+              </div>
+              <div class="sample-event subtle">
+                <div class="sample-icon ok">✓</div>
+                <div class="event-text">
+                  <strong>Evento recebido · uso de celular</strong>
+                  <p>Regra configurável · revisão conforme política da operação</p>
+                </div>
+                <div class="sample-chip neutral">REGISTRO DE EXEMPLO</div>
+              </div>
+            </div>
+            <div class="app-caption">Modelo conceitual de interface. Não representa um software entregue ou um evento real.</div>
+          </div>
+          <footer class="slide-foot"><span>JORNADA DE PRODUTO · EXEMPLO NÃO OPERACIONAL</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="9 de 12: Confiabilidade e governança" data-title="Confiabilidade e governança" data-section="RESPONSABILIDADE" data-notes="Biometria é dado sensível. Não expor nomes, CPF, faces em materiais comerciais. Exigir finalidade, base jurídica adequada, minimização, retenção e permissões. Revisão humana para decisões que afetem trabalhadores." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">09 &nbsp; / &nbsp; CONFIANÇA</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">08 / PRINCÍPIOS INEGOCIÁVEIS</div>
+            <h2 class="big-heading">IA apoia decisões.<br><span class="muted">Não substitui verificação.</span></h2>
+            <div class="govern-grid">
+              <div class="govern-card">
+                <div class="govern-icon">01</div>
+                <h3>Revisão humana</h3>
+                <p>Não atribuir infrações automaticamente com base em detecção incerta.</p>
+              </div>
+              <div class="govern-card">
+                <div class="govern-icon">02</div>
+                <h3>Rastreabilidade</h3>
+                <p>Guardar contexto, horário, origem e evidências do evento.</p>
+              </div>
+              <div class="govern-card">
+                <div class="govern-icon">03</div>
+                <h3>Proteção de dados</h3>
+                <p>Biometria e identificação demandam controles e avaliação sob a LGPD.</p>
+              </div>
+              <div class="govern-card">
+                <div class="govern-icon">04</div>
+                <h3>Teste contínuo</h3>
+                <p>Medir falsos positivos, eventos perdidos e mudanças do ambiente.</p>
+              </div>
+            </div>
+            <div class="govern-statement"><span class="signal"></span> Uma boa solução precisa ser tecnicamente viável, operacionalmente útil e responsável.</div>
+          </div>
+          <footer class="slide-foot"><span>GOVERNANÇA E SEGURANÇA DESDE O DESENHO DO PROJETO</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="10 de 12: Como transformar o caso em novos projetos" data-title="Como transformar o caso em novos projetos" data-section="MÉTODO" data-notes="Apresentar como método repetível: partir de uma regra e uma área, definir o que caracteriza sucesso, testar e só depois dimensionar. Sem prometer prazos, quantidade de câmeras ou precisão antes de levantamento." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">10 &nbsp; / &nbsp; ESTRATÉGIA DE IMPLANTAÇÃO</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">09 / MODELO REPLICÁVEL</div>
+            <h2 class="mid-heading">Começar pequeno.<br><span class="accent">Validar antes de escalar.</span></h2>
+            <div class="roadmap">
+              <div class="road-step">
+                <div class="road-step-head">
+                  <div class="phase">FASE 01</div>
+                  <span class="road-id">01</span>
+                </div>
+                <h3>Diagnóstico</h3>
+                <p>Mapear o ambiente, os riscos, as regras e o campo de visão.</p>
+                <div class="road-deliver">Saída → escopo e critérios de teste</div>
+              </div>
+              <div class="road-step">
+                <div class="road-step-head">
+                  <div class="phase">FASE 02</div>
+                  <span class="road-id">02</span>
+                </div>
+                <h3>Prova de conceito</h3>
+                <p>Testar eventos reais, oclusões, iluminação e limites da IA.</p>
+                <div class="road-deliver">Saída → resultados mensuráveis</div>
+              </div>
+              <div class="road-step">
+                <div class="road-step-head">
+                  <div class="phase">FASE 03</div>
+                  <span class="road-id">03</span>
+                </div>
+                <h3>Integração e escala</h3>
+                <p>Construir registros, alertas, indicadores e novas áreas monitoradas.</p>
+                <div class="road-deliver">Saída → operação com governança</div>
+              </div>
+            </div>
+            <div class="road-bottom"><span>1 CÂMERA</span><b>→</b><span>1 REGRA</span><b>→</b><span>1 ÁREA</span><b>→</b><span>1 CRITÉRIO MENSURÁVEL</span></div>
+          </div>
+          <footer class="slide-foot"><span>ESFORÇO E INFRAESTRUTURA DEFINIDOS APÓS DIAGNÓSTICO</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide" aria-roledescription="slide" aria-label="11 de 12: Mais possibilidades, o mesmo rigor" data-title="Mais possibilidades, o mesmo rigor" data-section="EXPANSÃO" data-notes="Diferenciar os testes confirmados no piloto das possibilidades futuras. Nunca vender detecção de óculos, luvas, áreas restritas ou análise comportamental avançada como função validada no equipamento atual." hidden>
+          <header class="slide-top"><span class="wordmark"><span class="mark"></span> VISION <span class="wordmark-lite">/ INTELLIGENCE</span></span><span class="chapter">11 &nbsp; / &nbsp; NOVAS FRENTES</span></header>
+          <div class="content-pad">
+            <div class="eyebrow">10 / OPORTUNIDADES DE EVOLUÇÃO</div>
+            <h2 class="big-heading">Um método.<br><span class="muted">Diferentes aplicações.</span></h2>
+            <div class="use-grid">
+              <div class="use-card">
+                <div class="use-glyph">⌁</div>
+                <h3>EPIs</h3>
+                <p>Capacete e outros itens relevantes para cada processo.</p>
+                <span>CASO-BASE</span>
+              </div>
+              <div class="use-card">
+                <div class="use-glyph">▢</div>
+                <h3>Comportamentos</h3>
+                <p>Uso de celular e regras específicas do ambiente.</p>
+                <span>CASO-BASE</span>
+              </div>
+              <div class="use-card">
+                <div class="use-glyph">◎</div>
+                <h3>Acesso e presença</h3>
+                <p>Verificação de áreas, rotas e circulação.</p>
+                <span>OPORTUNIDADE</span>
+              </div>
+              <div class="use-card">
+                <div class="use-glyph">▥</div>
+                <h3>Inteligência operacional</h3>
+                <p>Indicadores e histórico para orientar prevenção.</p>
+                <span>OPORTUNIDADE</span>
+              </div>
+            </div>
+            <div class="use-disclaimer">Aplicações adicionais dependem de requisitos, compatibilidade do hardware, validação técnica e avaliação de privacidade.</div>
+          </div>
+          <footer class="slide-foot"><span>POTENCIAIS CASOS DE USO · NÃO TODOS DEMONSTRADOS NO PILOTO</span><span>CASE BASE · HIKVISION · 2026</span></footer>
+        </section>
+        <section class="slide end" aria-roledescription="slide" aria-label="12 de 12: Próximo passo: descobrir onde a IA gera valor" data-title="Próximo passo: descobrir onde a IA gera valor" data-section="ENCERRAMENTO" data-notes="Encerrar com pergunta: quais são os riscos e situações que mais importam na operação do cliente? A partir daí discutir diagnóstico, prova de conceito e integração. Não apresentar como produto finalizado." hidden>
+          <div class="end-bg"><img src="assets/ambiente-industrial.webp" alt="Ambiente industrial" draggable="false"></div>
+          <div class="end-grad"></div>
+          <div class="end-mark"><span class="mark"></span> VISION <span>/ INTELLIGENCE</span></div>
+          <div class="end-content">
+            <div class="overline accent">SEGURANÇA OPERACIONAL COM IA</div>
+            <h1>Transformar<br>pixels em <em>prevenção.</em></h1>
+            <div class="cover-rule"></div>
+            <p>Um piloto real como base para soluções sob medida — com evidência, contexto e responsabilidade.</p>
+            <div class="end-actions">
+              <div><span>01</span> Entender o ambiente</div>
+              <div><span>02</span> Definir a regra</div>
+              <div><span>03</span> Validar a solução</div>
+            </div>
+          </div>
+          <div class="end-footer">CONVERSA ABERTA <span class="long-arrow">→</span> Q&amp;A</div>
+        </section>
+
+      <div class="presenter-ui">
+        <aside id="notes" aria-labelledby="notes-heading" hidden>
+          <h2 id="notes-heading">Notas do apresentador</h2>
+          <p id="notes-text"></p>
+        </aside>
+
+        <footer class="toolbar">
+          <div class="shortcuts">
+            <span class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> navegar</span>
+            <span class="shortcut-separator" aria-hidden="true">·</span>
+            <span class="keyboard-hint"><kbd>F</kbd> tela cheia</span>
+            <span class="shortcut-separator" aria-hidden="true">·</span>
+            <button id="overview-toggle" type="button" aria-label="Abrir o índice de slides" aria-haspopup="dialog" aria-controls="overview" aria-keyshortcuts="O"><kbd aria-hidden="true">O</kbd> visão geral</button>
+            <span class="shortcut-separator" aria-hidden="true">·</span>
+            <button id="notes-toggle" type="button" aria-label="Notas do apresentador" aria-controls="notes" aria-expanded="false" aria-keyshortcuts="N"><kbd aria-hidden="true">N</kbd> notas</button>
+          </div>
+          <nav class="navigation" aria-label="Navegação de slides">
+            <button id="prev" type="button" aria-label="Slide anterior" aria-disabled="true">‹</button>
+            <div id="counter">01 / 12</div>
+            <button id="next" type="button" aria-label="Próximo slide">›</button>
+            <button id="full" type="button" aria-label="Modo de tela cheia" aria-pressed="false" aria-keyshortcuts="F"><span aria-hidden="true">⛶</span></button>
+          </nav>
+          <div id="progress-track" role="progressbar" aria-label="Progresso da apresentação" aria-valuemin="1" aria-valuemax="12" aria-valuenow="1">
+            <div id="progress"></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <div id="announcement" class="sr-only" role="status" aria-atomic="true"></div>
+
+  <dialog id="overview" aria-labelledby="overview-title">
+    <div class="overview-header">
+      <h2 id="overview-title">Índice de slides</h2>
+      <button id="overview-close" type="button" aria-label="Fechar o índice">×</button>
+    </div>
+    <div id="overview-grid"></div>
+  </dialog>
+</body>
+</html>
